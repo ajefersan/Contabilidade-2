@@ -1,0 +1,20 @@
+.break-page {page-break-after: always; visibility: hidden; position: absolute; break-before: always;
+    page-break-before: always;}
+
+#periodos {
+    margin-bottom: 100px;
+}
+.codigo {
+    float: right;
+}
+@media print {
+    .top-bar {
+        display: none;
+    }
+
+    #periodos {
+        display: none;
+    }
+
+    h1.hideonprint { display: none; }
+}
